@@ -1,0 +1,38 @@
+{
+    "name": "xerobug/yii2-multilingual",
+    "description": "Allows building yii2 apps for multiple languages using regional URL's and domains",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","i18n","l10n","language","multilingual","hreflang"],
+    "homepage": "http://www.devgroup.ru/",
+    "support": {
+        "issues": "https://github.com/devgroup-ru/yii2-multilingual/issues?state=open",
+        "source": "https://github.com/devgroup-ru/yii2-multilingual"
+    },
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Alexander Kozhevnikov",
+            "email": "b37hr3z3n@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "^2.0.6",
+        "yii2tech/filedb": "^1.0@dev",
+        "devgroup/yii2-tag-dependency-helper": "~1.4.0",
+        "kartik-v/yii2-icons": "~1.4.0"
+    },
+    "require-dev": {
+        "devgroup/dotplant-dev": "~1.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "DevGroup\\Multilingual\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "DevGroup\\Multilingual\\Tests\\": "tests/"
+        }
+    }
+}
